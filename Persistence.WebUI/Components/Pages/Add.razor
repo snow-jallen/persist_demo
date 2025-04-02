@@ -1,0 +1,36 @@
+@page "/Add"
+@using Persistence.Logic
+
+<label>Name
+    <input @bind=NewAnimalName />
+</label>
+
+<br>
+
+<label for="streetValue">Street Value</label>
+<input id="streetValue" @bind=StreetValue />
+
+<br>
+
+<button @onclick=AddAnimal >Add an animal</button>
+
+@code {
+    private string NewAnimalName;
+    decimal StreetValue;
+    public void AddAnimal()
+    {
+        storageManager.AddAnimal(new Animal
+        {
+            Name = NewAnimalName,
+            StreetValue = StreetValue
+        });
+        NewAnimalName = null;
+        StreetValue = 0;
+    }
+
+    static IZooStorageManager storageManager = new JsonZooStorageManager();
+
+    protected override void OnInitialized()
+    {
+    }    
+}

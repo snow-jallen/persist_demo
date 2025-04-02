@@ -1,0 +1,41 @@
+﻿@page "/"
+@using Persistence.Logic
+
+<PageTitle>Home</PageTitle>
+
+<h1>Check out my zoo!</h1>
+<a href="/Add">Add New Animal</a>
+
+@if(animals != null)
+{
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Street Value</th>
+        </thead>
+        <tbody>
+            @foreach(var animal in animals)
+            {
+                <tr>
+                    <td>@animal.Id</td>
+                    <td>@animal.Name</td>
+                    <td>@animal.StreetValue.ToString("c")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    static IZooStorageManager storageManager = new JsonZooStorageManager();
+    IEnumerable<Animal> animals; 
+
+    protected override void OnInitialized()
+    {
+        animals = storageManager.GetAnimals()
+            .OrderByDescending(a => a.StreetValue);
+
+    }
+
+}

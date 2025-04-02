@@ -1,0 +1,12 @@
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\bin\Debug\net9.0\Persistence.Logic.deps.json
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\bin\Debug\net9.0\Persistence.Logic.dll
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\bin\Debug\net9.0\Persistence.Logic.pdb
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.csproj.AssemblyReference.cache
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.AssemblyInfoInputs.cache
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.AssemblyInfo.cs
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.csproj.CoreCompileInputs.cache
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.dll
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\refint\Persistence.Logic.dll
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\Persistence.Logic.pdb
+C:\Users\jonathan.allen\code\Persistence\Persistence.Logic\obj\Debug\net9.0\ref\Persistence.Logic.dll

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jonathan.allen\\code\\Persistence\\Persistence.WebUI\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Persistence.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Persistence.WebUI.ogylczf4f9.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jonathan.allen\\code\\Persistence\\Persistence.WebUI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Persistence.WebUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Persistence.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Persistence.WebUI.props",
+      "PackagePath": "build\\Persistence.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Persistence.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\Persistence.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Persistence.WebUI.props",
+      "PackagePath": "buildTransitive\\Persistence.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
